@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "opentiger"
+version = "0.1.0"
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE", "THIRD_PARTY_NOTICES.md"]
+description = "An approachable terminal workbench for reconnaissance and OSINT"
+requires-python = ">=3.11"
+dependencies = ["dnspython>=2.6,<3", "Pillow>=10.4,<14", "phonenumbers>=8.13,<10"]
+
+[project.scripts]
+opentiger = "opentiger.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["opentiger*"]

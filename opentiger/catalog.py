@@ -1,0 +1,42 @@
+"""OpenTiger commands, numbered top to bottom within each category."""
+
+MENU_TOOLS = [
+    ('Website Overview', 'overview'),
+    ('Port Scanner', 'port-scan'),
+    ('Connection Check', 'connection'),
+    ('Host Discovery', 'hosts'),
+    ('DNS Lookup', 'dns'),
+    ('Quick Port Check', 'ports'),
+    ('DNS Records', 'dns-records'),
+    ('Reverse IP Lookup', 'reverse-ip'),
+    ('Website Check', 'website-check'),
+    ('Page Crawler', 'crawl'),
+    ('Page Saver', 'save-page'),
+    ('Website Headers', 'http'),
+    ('SSL Certificate', 'tls'),
+    ('Website Links', 'website-links'),
+    ('Robots & Sitemap', 'robots'),
+    ('Broken Links', 'broken-links'),
+    ('Search Builder', 'search'),
+    ('Wallet Links', 'wallet'),
+    ('Username Check', 'username'),
+    ('Email Search', 'email-search'),
+    ('Email Info', 'email-info'),
+    ('IP Info', 'ip-info'),
+    ('Phone Lookup', 'phone'),
+    ('Profile Link', 'profile'),
+    ('Domain Lookup', 'rdap'),
+    ('Email Domain Check', 'email-domain'),
+    ('File Metadata', 'metadata'),
+    ('Image Metadata Cleaner', 'clean-image'),
+    ('File Hash', 'file'),
+    ('File Text Finder', 'file-text'),
+    ('URL Decoder', 'url-decode'),
+]
+
+MENU_GROUPS = [
+    ('NETWORK', (1, 2, 3, 4, 5, 6, 7, 8)),
+    ('WEBSITES', (9, 10, 11, 12, 13, 14, 15, 16)),
+    ('OSINT', (17, 18, 19, 20, 21, 22, 23, 24, 25, 26)),
+    ('FILES & UTILITIES', (27, 28, 29, 30, 31)),
+]

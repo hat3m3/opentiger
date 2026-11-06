@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+build/
+dist/
+reports/
+comparisons/
+.opentiger/
+.env
+.env.*
+!.env.example
+.pytest_cache/
+.ruff_cache/
+.DS_Store
+Thumbs.db
